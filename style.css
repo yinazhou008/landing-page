@@ -71,3 +71,41 @@ button {
     border: #f9faf8;
     padding: 5px 15px;
 }
+
+/* part 2 */
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.cards  {
+    display: flex;
+    gap: 40px
+}
+
+.card {
+    display: flex;
+    max-width: 200px;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    margin-bottom: 50px;
+}
+
+.gray {
+    color: gray;
+}
